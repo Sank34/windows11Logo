@@ -1,0 +1,70 @@
+body{
+    background-image: linear-gradient(rgb(0, 213, 255), rgb(0, 140, 255));
+}
+
+.pg1{
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    height: 400px;
+    border-radius: 0px;
+    margin-top: 500px;
+    margin-left: 600px;
+    opacity: 0.3;
+
+}
+
+.pg2{
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    height: 400px;
+    border-radius: 0px;
+    margin-top: -810px;
+    margin-left: 600px;
+    opacity: 0.3;
+
+}
+
+.pg3{
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    height: 400px;
+    border-radius: 0px;
+    margin-top: -400px;
+    margin-left: 1110px;
+    opacity: 0.3;
+
+}
+
+.pg4{
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    height: 400px;
+    border-radius: 0px;
+    margin-top: 10px;
+    margin-left: 1110px;
+    opacity: 0.3;
+}
+
+.text{
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    background-image: radial-gradient(rgb(0, 213, 255), rgb(0, 140, 255));
+    margin-top: 20px;
+    margin-left: 20px;
+    opacity: 0.5;
+    border-radius: 60px;
+}
+
+.pg4, .pg3, .pg2, .pg1{
+    transition: 5s;
+}
+
+.text:hover{
+    color:rgb(255, 255, 255);
+    opacity: 1;
+}
+
+.text a{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+}
